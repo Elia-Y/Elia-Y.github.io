@@ -39,7 +39,7 @@ Max-usefullness: minimal;
     background-color: #F7DCDC;  /*what is this?*/
     position: center;
     display: none;
-    /*opacity: 0.5;*/
+    opacity: 0.8;
     top: 0px;
 }
 #m_nav_bar {
