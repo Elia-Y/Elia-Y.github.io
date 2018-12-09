@@ -35,7 +35,7 @@ Max-usefullness: minimal;
 
 #m_nav_container {
     width: 100%;
-    /*height: 150px;*/
+    height: 200px;
     background-color: #F7DCDC;  /*what is this?*/
     position: center;
     display: none;
@@ -56,7 +56,7 @@ Max-usefullness: minimal;
 }
 .m_nav_item a {
     text-decoration: none;
-    color: #AAABAD;
+    color: #7F8181;
     font-size: 1em;
     -webkit-transition-duration: 0.5s;
 	 padding: 0.5em;
@@ -78,7 +78,7 @@ Max-usefullness: minimal;
 /*icon container*/
 #m_nav_menu {
     position: fixed;
-    top: 40px;
+    top: 30px;
     right: 221px;
     z-index: 3;
     cursor: pointer;

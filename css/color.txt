@@ -1,5 +1,6 @@
 color plate:
 1. Grey
+#585E61
 #7F8181
 #AAABAD
 #CDCDCD (deeper)

@@ -693,7 +693,7 @@ font-size:21px;}
 .skills-w3lsleft ul li {
     display: block;
     font-size: 1em;
-    color: #CDCDCD;
+    color: #7F8181;
     margin-top: 1em;
 }
 .skills-w3lsleft ul li span.fa{
@@ -842,7 +842,9 @@ span.circles-text {
 	transition: .5s all;
 	display: inline-block;
 }
-.experience-right p{color:#fff;}
+.experience-right p{
+	color:#fff;
+}
 .experience-left h6 span {
     font-size: 0.5em;
     text-transform: capitalize;
@@ -853,13 +855,13 @@ span.circles-text {
 }
 .experience-left h5 {
     font-size: 1em;
-    color: #a09f9f;
+    color: #7F8181;
     margin-top: 1em;
     letter-spacing: 2px;
 }
 .experience-right h4 {
     font-size: 1.6em;
-    color: #f7dcdc;
+    color: #585E61;
     margin-bottom: 0.5em;
     letter-spacing: 1px;
 }
