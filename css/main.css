@@ -14,8 +14,6 @@ Max-usefullness: minimal;
 ==============================*/
 
 #wrapper {
-    /*background-image: url('../yosemite.jpg');
-background-size: cover;*/
     background: tomato;
     position: absolute;
     top: 0px;
@@ -37,11 +35,11 @@ background-size: cover;*/
 
 #m_nav_container {
     width: 100%;
-    height: 200px;
-    background-color: #000;
-    position: fixed;
+    /*height: 150px;*/
+    background-color: #F7DCDC;  /*what is this?*/
+    position: center;
     display: none;
-    /*	opacity: 0;*/
+    /*opacity: 0.5;*/
     top: 0px;
 }
 #m_nav_bar {
@@ -58,16 +56,14 @@ background-size: cover;*/
 }
 .m_nav_item a {
     text-decoration: none;
-    color: #fff;
+    color: #AAABAD;
     font-size: 1em;
     -webkit-transition-duration: 0.5s;
 	 padding: 0.5em;
 }
 .m_nav_item a:hover {
-    color: #ff9800;
-	background: white;
-   
-
+    color: #fff;
+	background: #AAABAD;
 }
 /*classes for jQuery function*/
 
@@ -80,22 +76,22 @@ background-size: cover;*/
 ==============================*/
 
 /*icon container*/
-
 #m_nav_menu {
     position: fixed;
-    top: 30px;
+    top: 40px;
     right: 221px;
     z-index: 3;
     cursor: pointer;
     padding: .5em;
-    background:#ff6c5f;
+    background:#F7DCDC;
 }
+
 /*class applied to create the lines*/
 
 .m_nav_ham {
     width: 35px;
     height: 5px;
-    background: #000;
+    background: #AAABAD;
     margin: 5px auto;
 }
 .m_nav_ham_1_open {
@@ -120,7 +116,7 @@ In future releases this will be used to animate the m_nav_ham divs to form
 an X*/
 
 .button_open {
-    background: #000;
+    background: #AAABAD;
     /*	-webkit-transform: rotate(45deg);*/
 }
 .button_closed {}
@@ -213,19 +209,20 @@ an X*/
 /*Media query for larger, non-mobile devices*/
 @media screen and (max-width: 1366px){
 	#m_nav_menu {
-      right: 139px;
+        right: 139px;
 	}
 }
 @media screen and (min-width: 1280px){
 	#m_nav_menu {
-    right:146px}
+        right:146px;
+    }
 }
 @media screen and (min-width: 1150px){
     #m_nav_container {
-		background:#000;
+		background:#F7DCDC;
         text-align: center;
 		height: 125px !important;
-		box-shadow: 0 0 2px #000;
+		box-shadow: 0 0 2px #F7DCDC;
     }
 
 
@@ -238,11 +235,11 @@ an X*/
         line-height: 70px;
         margin-right: 52px;
         padding: 0.5em;
-        background: black;
+        background: #F7DCDC;
     }
     .m_nav_item a {
         margin-top: 10px;
-		font-size: 1.2em;
+		font-size: 1.5em;
 		font-weight: 600;
     }
     /*#toggle_m_nav{
@@ -252,89 +249,93 @@ an X*/
 /*
 Media query for mid-size non-mobile devices*/
 @media screen and (max-width: 1080px){
-#m_nav_list {
-margin: .5em 0 0 8em;}
-#m_nav_menu {
-	right:109px;
-}
+    #m_nav_list {
+    margin: .5em 0 0 8em;}
+    #m_nav_menu {
+    	right:109px;
+    }
 
 }
 @media screen and (max-width: 991px){
-	#m_nav_list {
-margin: 1.5em 0 0 5em;}
-#m_nav_menu {
-	right:120px;
-}
+    #m_nav_list {
+        margin: 1.5em 0 0 5em;
+    }
+    #m_nav_menu {
+    	right:120px;
+    }
 }
 @media screen and (max-width: 900px){
-	#m_nav_menu {
-    top: 45px;
-    right: 82px;
+    #m_nav_menu {
+        top: 45px;
+        right: 82px;
+    }
+    #m_nav_list {
+        margin: 1.5em 0 0 2em;
+    }
 }
-	#m_nav_list {
-    margin: 1.5em 0 0 2em;
-}
-}
+/* Vertical Menu */
 @media screen and (max-width: 800px){
-#m_nav_menu {right: 43px;
-    top: 46px;
-}
-#m_nav_list {
-    margin: 1.5em 0 0 2em;
-}
+    #m_nav_menu {
+        right: 43px;
+        top: 46px;
+    }
+    #m_nav_list {
+        margin: 1.5em 0 0 2em;
+    }
+    #m_nav_container {
+        height: 200px;
+    }
 }
 @media screen and (max-width: 768px){
 
-#m_nav_menu {
-    
-    top: 45px;
-    right: 61px;
+    #m_nav_menu {
+        
+        top: 45px;
+        right: 61px;
 
-}
-#m_nav_list {
-    margin: 0em 0em 0 22em;
-}
-#m_nav_container {
-    height: 215px;
-}
+    }
+    #m_nav_list {
+        margin: 0em 0em 0 22em;
+    }
+    
+    .m_nav_item a {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width:667px){
-.m_nav_ham {
-    width: 26px;
-    height: 4px;
-}
-.m_nav_item a {
-    font-size: 14px;
-	}
-	
+    .m_nav_ham {
+        width: 26px;
+        height: 4px;
+    }
+    
 }
 @media screen and (max-width: 600px){
-#m_nav_list {
-    margin: 0em 0em 0 18em;
-}
+    #m_nav_list {
+        margin: 0em 0em 0 18em;
+    }
 }
 @media screen and (max-width: 480px){
-#m_nav_list {
-    margin: 0em 0em 0 13em;
-}
+    #m_nav_list {
+        margin: 0em 0em 0 13em;
+    }
 }
 @media screen and (max-width: 414px){
-#m_nav_list {
-    margin: 0em 0em 0 10em;
-}
+    #m_nav_list {
+        margin: 0em 0em 0 10em;
+    }
 }
 @media screen and (max-width: 385px){
 	#m_nav_menu {
     top: 30px;
     right: 35px;
-}
-#m_nav_list {
-    margin: 0em 0em 0 8em;
-}
+    }
+    #m_nav_list {
+        margin: 0em 0em 0 8em;
+    }
 }
 @media screen and (max-width:320px){
-#m_nav_menu {
-	top: 23px;
-    right: 16px;
-}
+    #m_nav_menu {
+    	top: 23px;
+        right: 16px;
+    }
 }
