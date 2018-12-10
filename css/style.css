@@ -981,6 +981,23 @@ span.circles-text {
 	border-bottom-color: transparent;
 }
 
+.nav-tabs {
+	border-bottom: none;
+	margin: 0 0 2.5em;
+	text-align:center;
+}
+
+.nav-tabs>li {
+	margin-bottom: 0;
+	list-style: none;
+	float: none;  /*Important to make items in middle!*/
+	display:inline-block;
+}
+
+/*.nav-tabs>li:nth-child(1) {
+	margin-left: 5.5em;
+}*/
+
 .nav-tabs>li>a {
 	margin-right: 3px;
 	border-radius: 0;
@@ -988,27 +1005,13 @@ span.circles-text {
 	color: #000;
 	letter-spacing: 2px;
     border:none;
-}
-
-.nav-tabs {
-	border-bottom: none;
-}
-
-.nav-tabs>li {
-	margin-bottom: 0;
-}
-
-.nav-tabs {
-	margin: 0 0 2.5em;
-}
-
-.nav-tabs>li:nth-child(1) {
-	margin-left: 30.5em;
+    display:inline-block;
 }
 
 .nav-tabs>li>a:hover {
 	border: none;
 }
+
 /* used?*/
 .wthree_text p {
 	color: #fff;
@@ -1233,84 +1236,84 @@ a.to-top {
 	}
 }
 @media screen and (max-width: 1280px){
-.agile-logo h1 a {
-    font-size: 38px;
-    margin: 0 1em;
-}
+	.agile-logo h1 a {
+	    font-size: 38px;
+	    margin: 0 1em;
+	}
 }
 @media screen and (max-width: 1080px){
-.agile-logo {
-    width: 38%;
-}
-.agile-logo h1 a {
-font-size:38px;}
-.banner_text_w3layouts h3 {
-    font-size: 30px;
+	.agile-logo {
+	    width: 38%;
+	}
+	.agile-logo h1 a {
+	font-size:38px;}
+	.banner_text_w3layouts h3 {
+	    font-size: 30px;
 
-    padding: 5em 0 0;
-}
-.banner_text_w3layouts {
-    padding-bottom: 12em;
-}
-ul.address li ul.agileits-address-text li:nth-child(1) {
-    width: 30%;
-}
-ul.address li ul.agileits-address-text li {
-    font-size: 13px;
-   
-}
-.nav-tabs>li:nth-child(1) {
-    margin-left: 20.5em;
-}
-.booking-form-aits input[type="text"], .booking-form-aits input[type="email"] {
-    width: 48.7%;
-}
+	    padding: 5em 0 0;
+	}
+	.banner_text_w3layouts {
+	    padding-bottom: 12em;
+	}
+	ul.address li ul.agileits-address-text li:nth-child(1) {
+	    width: 30%;
+	}
+	ul.address li ul.agileits-address-text li {
+	    font-size: 13px;
+	   
+	}
+	/*.nav-tabs>li:nth-child(1) {
+	    margin-left: 20.5em;
+	} */
+	.booking-form-aits input[type="text"], .booking-form-aits input[type="email"] {
+	    width: 48.7%;
+	}
 }
 @media screen and (max-width: 991px){
 	.agile-logo {
-    width: 48%;
-}
-.agile-logo h1 a {
-font-size:35px;}
-ul.address li ul.agileits-address-text li:nth-child(1) {
-    width: 30%;
-}
-ul.address li b {
-    letter-spacing:4px;
-}
-ul.address li ul.agileits-address-text li {
-    margin-top: 1em;
-}
-.nav-tabs>li:nth-child(1) {
-margin-left: 13.5em;}
-.w3layouts_gallery_grid {
-	float:left;
-width:50%;}
-.booking-form-aits input[type="text"], .booking-form-aits input[type="email"] {
-width: 48%;}
-.address ul li {
-    line-height: 7px;
-	padding: 0.5em 0;}
-.w3ls-titlew3l h3 {
-    margin-bottom: 19px;
-    font-size: 51px;
-   }
-   .booking-form-aits {
-    padding: 42px;
-}
-.w3layoutsbooking {
-max-height: 654px;}
-.experience-grids {
-width: 92%;}
-.experience-left {
-    width: 29%;
-    padding: 3.5em 0;
-}
-.experience-left h6 {
-font-size: 27px;}
-.newsletter span {
-    margin: 0 0.5em 0 0;
-}
+    	width: 48%;
+	}
+	.agile-logo h1 a {
+	font-size:35px;}
+	ul.address li ul.agileits-address-text li:nth-child(1) {
+	    width: 30%;
+	}
+	ul.address li b {
+	    letter-spacing:4px;
+	}
+	ul.address li ul.agileits-address-text li {
+	    margin-top: 1em;
+	}
+	/*.nav-tabs>li:nth-child(1) {
+	margin-left: 13.5em;}*/
+	.w3layouts_gallery_grid {
+		float:left;
+	width:50%;}
+	.booking-form-aits input[type="text"], .booking-form-aits input[type="email"] {
+	width: 48%;}
+	.address ul li {
+	    line-height: 7px;
+		padding: 0.5em 0;}
+	.w3ls-titlew3l h3 {
+	    margin-bottom: 19px;
+	    font-size: 51px;
+	   }
+	   .booking-form-aits {
+	    padding: 42px;
+	}
+	.w3layoutsbooking {
+	max-height: 654px;}
+	.experience-grids {
+	width: 92%;}
+	.experience-left {
+	    width: 29%;
+	    padding: 3.5em 0;
+	}
+	.experience-left h6 {
+	font-size: 27px;}
+	.newsletter span {
+	    margin: 0 0.5em 0 0;
+	}
 }
 @media screen and (max-width: 900px){
 	
@@ -1341,9 +1344,9 @@ ul.address li ul.agileits-address-text li {
 .hire-w3lgrids {
     margin-top: 1.5em;
 }
-.nav-tabs>li:nth-child(1) {
+/*.nav-tabs>li:nth-child(1) {
     margin-left: 15.5em;
-}
+}*/
 .w3layouts_gallery_grid {
     float: left;
     width: 50%; 
@@ -1391,9 +1394,9 @@ ul.address li ul.agileits-address-text li {
     float: left;
     width: 50%;
 }
-.nav-tabs>li:nth-child(1) {
+/*.nav-tabs>li:nth-child(1) {
     margin-left: 14.5em;
-}
+}*/
 .experience-left h6 {
     font-size: 25px;
 }
@@ -1486,9 +1489,9 @@ a.wthree-more {
 	 height: 35%;
 }
 
-.nav-tabs>li:nth-child(1) {
+/*.nav-tabs>li:nth-child(1) {
     margin-left: 9.5em;
-}
+}*/
 .booking-form-aits {
     padding: 63px;
 }
@@ -1534,9 +1537,9 @@ a.wthree-more {
     width: 53%;
 }
 
-.nav-tabs > li:nth-child(1) {
+/*.nav-tabs>li:nth-child(1) {
     margin-left: 7.5em;
-}
+}*/
 
 .experience-right h4 {
     font-size: 20px;
@@ -1594,41 +1597,41 @@ a.wthree-more {
     margin-bottom: 2em;
 }
 @media screen and (max-width:480px){
-		.agile-logo {
-    width:65%;
-}
-.agile-logo h1 a {
-    font-size: 24px;
-}
-	.agile-logo h1 a span {
-    font-size: 30px;
-}
-.banner_text_w3layouts h3 {
-    padding: 5em 0 0;
-}
-.banner_text_w3layouts {
-    padding-bottom: 14em;
-}
-.about-left {width:100%;}
-.about-right h2 {
-    font-size: 26px
-}
-.experience-left {
-    width: 100%;
-}
-.experience-left h6 {
-    font-size: 23px;
-}
-.experience-right {
-	padding: 0;
-    margin: 2em 4em 0;
-}
-.nav-tabs>li>a {
-    font-size: 15px
-}
-.nav-tabs > li:nth-child(1) {
-    margin-left: 5.5em;
-}
+	.agile-logo {
+	    width:65%;
+	}
+	.agile-logo h1 a {
+	    font-size: 24px;
+	}
+		.agile-logo h1 a span {
+	    font-size: 30px;
+	}
+	.banner_text_w3layouts h3 {
+	    padding: 5em 0 0;
+	}
+	.banner_text_w3layouts {
+	    padding-bottom: 14em;
+	}
+	.about-left {width:100%;}
+	.about-right h2 {
+	    font-size: 26px
+	}
+	.experience-left {
+	    width: 100%;
+	}
+	.experience-left h6 {
+	    font-size: 23px;
+	}
+	.experience-right {
+		padding: 0;
+	    margin: 2em 4em 0;
+	}
+	.nav-tabs>li>a {
+	    font-size: 15px;
+	}
+	/*.nav-tabs>li:nth-child(1) {
+	    margin-left: 5.5em;
+	}*/
 	.w3layouts_gallery_grid {
    
     width: 100%;
@@ -1654,9 +1657,9 @@ a.wthree-more {
 a.wthree-more {
     font-size: 13px;
 }
-.nav-tabs > li:nth-child(1) {
+/*.nav-tabs>li:nth-child(1) {
     margin-left: 2.5em;
-}
+}*/
 .nav-tabs>li>a {
     font-size: 18px;
 }
@@ -1693,13 +1696,13 @@ a.wthree-more {
     font-size: 15px;
     padding: 5em 0 0;
 }
-	.nav-tabs>li:nth-child(1) {
+	/*.nav-tabs>li:nth-child(1) {
     margin-left:0;
-	}
+	}*/
 	a.wthree-more.w3more1 {
     margin-left:0em;
 }
-	.nav-tabs > li > a {
+	.nav-tabs>li>a {
     margin: 0 3em;
     font-size: 20px;
 }
