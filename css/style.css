@@ -437,10 +437,11 @@ ul{
     color: #AAABAD;
 }
 .about-right h4 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #fff;
-    margin-top: 1em;
+    margin-top: 2em;
     letter-spacing: 2px;
+    line-height: 1.8em;
 }
 .about-left img {
     border: 20px solid #F7DCDC; 
@@ -458,8 +459,8 @@ ul.address li b{
 }
 ul.address li ul.agileits-address-text li {
     display: inline-block;
-    font-size: 1.1em;
-    color: #fff;
+    font-size: 1.1em;  
+    color:#7F8181;
     margin-top: 1.5em;
     font-weight: 100;
 }
@@ -467,7 +468,7 @@ ul.address li ul.agileits-address-text li:nth-child(1){
 	width: 20%;
 }
 ul.address li ul.agileits-address-text li a {
-    color: #fff;
+    color:#7F8181;
 	text-decoration:none;
 	    letter-spacing: 2px;
 }
