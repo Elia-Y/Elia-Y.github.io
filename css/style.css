@@ -51,7 +51,7 @@ ul{
 	padding:0;
 }
 /*-- //Reset-Code --*/
-.about,.about-skills,.gallery,.about-education,.w3layoutsbooking{padding:3em 0;}
+.about,.about-skills,.gallery,.about-education,.projects,.w3layoutsbooking{padding:3em 0;}
 
 /*-- header styling starts here --*/
 .agileits_main{
@@ -891,12 +891,12 @@ span.circles-text {
 /*-- //experience --*/
 
 /*-- gallery --*/
-.gallery{background:#E9E9E9} /*#ff6c5f*/
+.gallery{background:#CDCDCD} /*#ff6c5f*/
 .tittle-agileinfo h3{    
     text-align: center;
     margin-bottom: 30px;
     font-size: 56px;
-    color: #AAABAD;
+    color: #585E61;
 }
 
 .w3layouts_team_grid {
@@ -972,16 +972,6 @@ span.circles-text {
 	padding: 0;
 }
 
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover,
-.nav-tabs>li.active>a:focus {
-	color: #fff;
-	cursor: default;
-	background-color: #F7DCDC;
-	border: none;
-	border-bottom-color: transparent;
-}
-
 .nav-tabs {
 	border-bottom: none;
 	margin: 0 0 2.5em;
@@ -995,6 +985,16 @@ span.circles-text {
 	display:inline-block;
 }
 
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+	color: #fff;
+	cursor: default;
+	background-color: #F7DCDC;
+	border: none;
+	border-bottom-color: transparent;
+}
+
 /*.nav-tabs>li:nth-child(1) {
 	margin-left: 5.5em;
 }*/
@@ -1003,7 +1003,7 @@ span.circles-text {
 	margin-right: 3px;
 	border-radius: 0;
 	font-size:20px;
-	color: #000;
+	color: #7F8181;
 	letter-spacing: 2px;
     border:none;
     display:inline-block;
@@ -1020,6 +1020,155 @@ span.circles-text {
 	font-size: 19px;
 }
 /*-- //gallery --*/
+
+/*-- Projects --*/
+/*--Idea from http://www.pascalvangemert.nl/#/projects--*/
+.projects{background:#E9E9E9}
+.w3ls-titlew4 h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 56px;
+    color: #7F8181;
+}
+
+.project {
+	position: relative;
+    min-height: 1px;
+    padding-right: 22%;
+    padding-left: 22%;
+    text-align: center;
+}
+
+.projects .row > div { 
+	margin-bottom: 30px;
+}
+.projects figure { 
+	position: relative; 
+	overflow: hidden;
+}
+.projects figure h3 { 
+	color: #FFF; 
+	font-weight: 600; 
+	margin-bottom: 5px; 
+}
+.projects figure p > strong { 
+	width: 60px; 
+	display: inline-block; 
+	margin: 0px; 
+}
+.projects figure img { 
+	width: 110%;
+}
+.projects figure figcaption {
+    padding: 20px 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.projects figure a {
+    color: #585E61;
+}
+
+.projects figure .icon { 
+	background: #F7DCDC;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 48px;
+	height: 48px;
+}
+.projects figure .icon span {
+	font-size: 18px;
+	line-height: 18px;
+	padding: 15px;
+}
+
+.glyphicon-new-window:before{  /*what is this?*/
+	content:"\e164";
+}
+
+/*---------------*/
+/***** EFFECT *****/
+/*---------------*/
+
+figure.effect {
+	background: #F7DCDC;
+	color: #585E61;
+	font-weight: 100;
+}
+
+figure.effect img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect:hover img {
+	opacity: 0.2;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect figcaption {
+	text-align: left;
+}
+
+figure.effect h3 {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect:hover h3 {
+	opacity: 1;
+}
+
+figure.effect h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect:hover h3::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect p {
+	padding-top: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+figure.effect:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/*-- //Projects --*/
 
 /*-- Deprecated: Booking --*/
 .w3layoutsbooking {
@@ -1465,6 +1614,7 @@ a.wthree-more {
 	    width: 20%;
 	 height: 35%;
 }
+
 }
 @media screen and (max-width: 667px){
 	.agile-logo {
@@ -1596,6 +1746,7 @@ a.wthree-more {
 }
 .address ,.phone,.email,.newsletter{
     margin-bottom: 2em;
+}
 }
 @media screen and (max-width:480px){
 	.agile-logo {

@@ -36,7 +36,7 @@ Max-usefullness: minimal;
 #m_nav_container {
     width: 100%;
     height: 200px;
-    background-color: #F7DCDC;  /*what is this?*/
+    background-color: #F7DCDC;
     position: center;
     display: none;
     opacity: 0.8;
@@ -59,7 +59,7 @@ Max-usefullness: minimal;
     color: #7F8181;
     font-size: 1em;
     -webkit-transition-duration: 0.5s;
-	 padding: 0.5em;
+	padding: 0.5em;
 }
 .m_nav_item a:hover {
     color: #fff;
@@ -84,6 +84,7 @@ Max-usefullness: minimal;
     cursor: pointer;
     padding: .5em;
     background:#F7DCDC;
+
 }
 
 /*class applied to create the lines*/
@@ -209,12 +210,12 @@ an X*/
 /*Media query for larger, non-mobile devices*/
 @media screen and (max-width: 1366px){
 	#m_nav_menu {
-        right: 139px;
+        right: 90px;
 	}
 }
 @media screen and (min-width: 1280px){
 	#m_nav_menu {
-        right:146px;
+        right:100px;
     }
 }
 @media screen and (min-width: 1150px){
@@ -283,7 +284,7 @@ Media query for mid-size non-mobile devices*/
         margin: 1.5em 0 0 2em;
     }
     #m_nav_container {
-        height: 200px;
+        height: 220px;
     }
 }
 @media screen and (max-width: 768px){

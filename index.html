@@ -52,10 +52,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">About</a> </li>
 				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#skills">Skills</a> </li>
 				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#education">Experiences</a> </li>
+                <li class="m_nav_item" id="moble_nav_item_6"> <a href="#csprojects">Projects</a> </li>
 				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#portfolio">Footprints</a> </li>
 			  </ul>
 			</div>
 		<!-- menu -->
+
 		<div class="container">
 			<div class="agile-logo">
 				<h1><a href="index.html">WELCOME<span></span></a></h1>
@@ -110,7 +112,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> 
 				<div class="col-md-8 col-sm-8 about-right wthree"> 
 					<h2>Hi, i'm <span>Yuxiao(Yilia) Yu </span></h2>
-					<h4>I'm currently studying Computer Science at the University of Waterloo. I enjoy coding and writing my own projects. Besides school, I had threee internships in Peraso Technology Inc., Ultimate Software and String Technology respectively. I also had one research experience in University of Waterloo, Faculty of Mathematics. Now I'm working in part time as a undergraduate research assistant on a project about 'Big Data' Empirical Software Engineering. In my spare time, I like travelling, reading and painting.</h4>
+					<h4>I'm currently studying Computer Science at the University of Waterloo. I enjoy coding and writing my own projects. Besides school, I had threee internships in Peraso Technology Inc., Ultimate Software and String Technology respectively. I also had one research experience in University of Waterloo, Faculty of Mathematics. Now I'm working in part time as an undergraduate research assistant on a project about 'Big Data' Empirical Software Engineering. In my spare time, I like travelling, reading and painting.</h4>
 					<ul class="address">
 						<li>
 							<ul class="agileits-address-text">
@@ -159,8 +161,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="col-md-4 col-sm-4 skills-w3lsleft">
 						<h4>Extra Skills</h4>
 						<ul>
-							<li><span class="fa fa-check-square-o" aria-hidden="true"></span>Writing</li>
 							<li><span class="fa fa-check-square-o" aria-hidden="true"></span>Painting</li>
+							<li><span class="fa fa-check-square-o" aria-hidden="true"></span>Writing</li>
 							<li><span class="fa fa-check-square-o" aria-hidden="true"></span>Swimming</li>
 							<li><span class="fa fa-check-square-o" aria-hidden="true"></span>Cooking</li>
 
@@ -347,9 +349,50 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                      </div>-->
 	<!--//start-->
 
-		<!-- gallery -->
-		<div class="gallery" id="portfolio">
-		   <div class="container">
+	<!-- Projects -->
+	<div class="projects" id="csprojects">
+		<div class="container">
+			<div class="w3ls-titlew4">
+				<h3>Projects</h3>
+			</div>
+
+			<div class="row">
+				<div class="project">
+                    <figure class="effect">
+                        <img src="images/CutiePics.jpg" alt="CutiePics"/>
+            
+                    <figcaption>
+	                    <h3>CutiePics</h3>
+	                    <p>CutiePics, a powerful photo editing app</p>
+	                    <p><strong>Functionalities:</strong>
+		                    <li><p>Add stickers</p></li>
+		                	<li><p>Add a frame</p></li>
+		                	<li><p>Combine 2 ~ 4 photos with various layouts</p></li>
+		                	<li><p>Overlay two photos</p></li>
+		                	<li><p>Share photos within authorized users</p></li>
+		                </p>
+
+		                <p><strong><a href="https://youtu.be/QdhfhLP_Dwc" target="_blank">Demo</a></strong></p>
+
+		                <p><strong><a href="https://github.com/Elia-Y/CutiePics" target="_blank">Source</a></strong></p>	                    
+
+	                    <span class="icon">
+	                    <a href="https://youtu.be/QdhfhLP_Dwc" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a>
+	                    </span>
+
+                    </figcaption>
+
+                    </figure>
+                </div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- Projects -->
+
+	<!-- gallery -->
+	<div class="gallery" id="portfolio">
+		<div class="container">
 			<div class="tittle-agileinfo">
 				<h3>Footprints</h3>
 			</div>
@@ -854,7 +897,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-	<!-- //gallery -->
+	<!-- //gallery -->	
 
 	<!-- Footer -->
 	<div class="footer">
@@ -909,11 +952,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 	}); 
 	</script> 
-	<!-- //End Skill Bar js -->  
+	<!-- //End Skill Bar js -->
 
 	<!-- /circle-->
 	 <script type="text/javascript" src="js/circles.js"></script>
-					         <script>
+					    <script>
 								var colors = [
 										['#ffffff', '#e31de1'], ['#ffffff', '#51ffe8'],['#ffffff', '#0012bc'], ['#ffffff', '#bc000d']
 									];
@@ -932,24 +975,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									});
 								}
 						
-				</script>
+						</script>
 	<!-- //circle -->
-	<!-- start-smoth-scrolling -->
-			<script type="text/javascript" src="js/move-top.js"></script>
-			<script type="text/javascript" src="js/easing.js"></script>
-			<script type="text/javascript">
-				jQuery(document).ready(function($) {
-					$(".scroll").click(function(event){		
-						event.preventDefault();
-						$('html,body').animate({scrollTop:$(this.hash).offset().top},3000);
-					});
+
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},3000);
 				});
-			</script>
+			});
+		</script>
 		<!-- start-smoth-scrolling -->
 
 		<!-- Banner slider -->
-		  <script src="js/responsiveslides.min.js"></script>
-		  <script>
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
 			// You can also use "$(window).load(function() {"
 			$(function () {
 			  // Slideshow 4
@@ -969,6 +1013,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 			});
 		
-</script>
+		</script>
 </body>
 </html>
