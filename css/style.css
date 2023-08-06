@@ -679,18 +679,19 @@ a.wthree-more:hover > span:nth-child(10) {
 	background-size:cover;
 }
 
+.skills h4 {
+    font-size: 1.8em;
+    color: #4378ff;
+    letter-spacing: 2px;
+    margin-bottom: 0.8em; 
+}
+
 .skills-w3lsright h4{color:black;
 font-size:21px;
              }
 .skills-w3lsleft h4{color:black;
 font-size:21px;}
 
-.skills h4 {
-    font-size: 1.8em;
-    color: #4378ff;
-    letter-spacing: 2px;
-    margin-bottom: 0.8em; 
-} 
 .skills-w3lsleft ul li {
     display: block;
     font-size: 1em;
